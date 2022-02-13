@@ -2789,23 +2789,15 @@ input, select, textarea {
 	}
 
 		.features li {
-			width: calc(33.3333333333% - 2em);
+			width: 40%;
 			margin-left: 2em;
 			margin-top: 3em;
 			padding: 0;
 			display: flex;
-			justify-content: space-between;
 			flex-direction: column;
 			display: flex;
+		
 		}
-
-			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
-				margin-top: 0;
-			}
-
-			.features li > :last-child {
-				margin-bottom: 0;
-			}
 
 		@media screen and (max-width: 980px) {
 
@@ -4051,4 +4043,12 @@ input, select, textarea {
 		justify-content: space-around;
 		flex-direction: unset;
 	}
+}
+
+.fa-linkedin {
+	font-size: 2em !important;
+}
+
+.email-me {
+	border-bottom: 0 !important;
 }
